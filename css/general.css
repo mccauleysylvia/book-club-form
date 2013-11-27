@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font-family:Helvetica, Arial, sans-serf;
+}
+* {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	boxsizing:border-box;
+}
+
+label {
+	display:block;
+	cursor:pointer;
+}
+
+.input-text {
+	font-size:1rem;
+	border:1px solid #ccc;
+	border-radius:4px;
+	background-image: linear-gradient (to bottom,#efefef, #fff);
+	padding:0.5rem;
+	width:100%;	
+}
+
+input {
+	font-size:1rem;
+}
+
+input + label {
+	display:inline;
+}
+
+textarea {
+	max-width:100%;
+	height:8em;
+}
+	
+button {
+	font-size:1.125em;
+	padding:1em;
+	border-radius:10px;
+	border:3px solid #00f;
+	background-image: linear-graduent (to bottom, #00f, #33e);
+	color:#fff;
+	font-weight:bold;
+	cursor:pointer;	
+}
+
+.error {
+	display:block;
+	color:#f33;
+}
+
+.input-error {
+	border:3px solid #f33;
+}
